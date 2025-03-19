@@ -15,7 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     Button setButton;
+    Button proButton;
     Intent goToset;
+    Intent goTopro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,15 +26,36 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         setButton=findViewById(R.id.setbtn);
+        proButton=findViewById(R.id.ProId);
+
+
+
+        //Buttons
+
+      //  settings btn
+        setButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToset=new Intent(MainActivity.this, SettingsActivity2.class);
+                startActivity(goToset);
+            }
+        });
+
+        //profile btn
+        proButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTopro=new Intent(MainActivity.this, ActivityProfile.class);
+                startActivity(goTopro);
+            }
+        });
 
     }
 
-    setButton.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            goToset=new Intent(MainActivity.this, SettingsActivity.class);
-            startActivity(goToset);
-        }
-    });
+
+
+
+
+
 
 }

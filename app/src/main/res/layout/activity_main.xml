@@ -13,7 +13,7 @@
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/purple"
+        android:background="@color/shadow"
         android:id="@+id/bacg"
 
         xmlns:android="http://schemas.android.com/apk/res/android">
@@ -32,15 +32,23 @@
 
         <!--   color prefrences -->
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restlogo"
+            android:layout_marginLeft="200dp"
 
+            />
 
         <Button
-            android:layout_margin=""
+
             android:id="@+id/btton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
             android:layout_marginTop="37sp"
+            android:backgroundTint="@color/dGreen"
 
 
             />
@@ -51,9 +59,19 @@
             android:layout_height="wrap_content"
             android:text="Settings"
             android:id="@+id/setbtn"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/gray"
 
 
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:id="@+id/ProId"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/gray"
             />
 
 
