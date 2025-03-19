@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Intent goToset;
     Intent goTopro;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
