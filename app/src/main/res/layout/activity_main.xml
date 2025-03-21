@@ -63,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:text="Hello welcome to the QuitQuick app, this app is dedicated to helping users quit smoking everyday connecting you with tools and coaches to support you as much as possible. "
                 android:textColor="@color/black"
+                />
         <Button
 
             android:id="@+id/btton"
@@ -99,7 +100,9 @@
 
 
 
-    </LinearLayout>
+        </LinearLayout>
 
+
+    </LinearLayout>
 
 </LinearLayout>
