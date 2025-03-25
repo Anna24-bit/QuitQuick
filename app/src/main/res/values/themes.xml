@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.QuitQuickApp" parent="Base.Theme.QuitQuickApp" />
+
+    <style name="Theme.QuitQuickApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.QuitQuickApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.QuitQuickApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
