@@ -25,13 +25,13 @@ public class ActivityProfile extends AppCompatActivity {
         profile = (ImageView)findViewById(R.id.imageView);
         pBTN = (Button)findViewById(R.id.pButton);
 
-        pBTN.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                profile.setVisibility(View.VISIBLE);
-                pBTN.setVisibility(View.GONE);
-            }
-        });
+//        pBTN.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                profile.setVisibility(View.VISIBLE);
+//                pBTN.setVisibility(View.GONE);
+//            }
+//        });
     }
 
 
