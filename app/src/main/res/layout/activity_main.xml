@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
 <LinearLayout
 
     android:layout_width="match_parent"
@@ -10,7 +18,7 @@
 
 
 
-    xmlns:android="http://schemas.android.com/apk/res/android">
+   >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,12 +38,6 @@
             android:layout_weight="0.5"
             android:gravity="center_horizontal"
             android:orientation="vertical">
-
-
-
-
-
-
 
 
 
@@ -66,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:text="Hello welcome to the QuitQuick app, this app is dedicated to helping users quit smoking everyday connecting you with tools and coaches to support you as much as possible. "
                 android:textColor="@color/black"
+                android:textAlignment="center"
                 />
         <Button
 
@@ -73,7 +76,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:layout_marginTop="37sp"
             android:backgroundTint="@color/dGreen"
 
 
@@ -96,7 +98,6 @@
             android:layout_height="wrap_content"
             android:text="Profile"
             android:id="@+id/ProId"
-            android:layout_marginTop="30dp"
             android:backgroundTint="@color/gray"
             />
 
@@ -105,7 +106,6 @@
                 android:layout_height="wrap_content"
                 android:text="Progress Tracking"
                 android:id="@+id/trackp"
-                android:layout_marginTop="30dp"
                 android:backgroundTint="@color/gray"
                 />
 
@@ -114,17 +114,21 @@
                 android:layout_height="wrap_content"
                 android:text="connect with a coach"
                 android:id="@+id/cconnect"
-                android:layout_marginTop="30dp"
                 android:backgroundTint="@color/gray"
                 />
 
 
-
-
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/navbtn"
+            android:text="Menu"
+            />
         </LinearLayout>
 
 
     </LinearLayout>
 
 </LinearLayout>
+
+</ScrollView>

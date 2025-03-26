@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     Button proButton;
     Intent goToset;
     Intent goTopro;
+    Button navButton;
+    Intent goTonav;
 
 
     @Override
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         setButton=findViewById(R.id.setbtn);
         proButton=findViewById(R.id.ProId);
-
+        navButton=findViewById(R.id.navbtn);
 
 
         //Buttons
@@ -48,6 +50,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 goTopro=new Intent(MainActivity.this, ActivityProfile.class);
                 startActivity(goTopro);
+            }
+        });
+
+
+        navButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTonav=new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(goTonav);
             }
         });
 
