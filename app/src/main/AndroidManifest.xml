@@ -13,6 +13,12 @@
         android:theme="@style/Theme.QuitQuickApp"
         tools:targetApi="31">
         <activity
+            android:name=".ProActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false"
             android:label="@string/title_activity_menu"

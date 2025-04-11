@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="199dp"
+        />
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/buttonbad"
+        android:text="bad"
+        android:layout_below="@+id/progressBar"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/buttonalright"
+        android:text="Alright"
+        android:layout_below="@+id/buttonbad"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/buttongood"
+        android:text="Good"
+        android:layout_below="@+id/buttonalright"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+
+</RelativeLayout>

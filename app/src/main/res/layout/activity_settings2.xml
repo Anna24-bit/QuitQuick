@@ -3,6 +3,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/bacg"
+    android:background="@color/white"
+
 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
@@ -41,7 +43,7 @@
         />
 
     <Button
-        android:id="@+id/g"
+        android:id="@+id/b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -51,7 +53,7 @@
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/b"
+        android:id="@+id/v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -60,13 +62,14 @@
         android:textSize="17sp"
         android:textColor="@color/black"/>
 
+
+
     <Button
-        android:id="@+id/btton"
+        android:id="@+id/setbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
         android:layout_marginTop="37sp"
-        android:backgroundTint="@color/gray"
 
 
         />
