@@ -99,18 +99,26 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="connect with a coach"
+                android:text="find a coach"
                 android:id="@+id/cconnect"
                 android:backgroundTint="@color/gray"
                 />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NotifB"
+                android:id="@+id/notyId"
+                android:backgroundTint="@color/gray"
+                />
+        </LinearLayout>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/navbtn"
             android:text="Menu"
             />
-        </LinearLayout>
+
 
 
     </LinearLayout>

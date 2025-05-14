@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
     Intent goTopro;
     Intent goTobar;
     Button navButton;
+    Button NotifB;
     Intent goTonav;
+    Intent goTonot;
     private SharedPreferences mPreferences;
     private String sharedPrefFile = "org.baltimorecityschools.bookquizappal";
     private final String Name_KEY= "Name";
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         proButton=findViewById(R.id.ProId);
         barBtn=findViewById(R.id.trackp);
         navButton=findViewById(R.id.navbtn);
+        NotifB=findViewById(R.id.notyId);
+
         Bground2= (LinearLayout) findViewById(R.id.bacg2);
         mPreferences=getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
         int initialColor= mPreferences.getInt(COLOR_KEY, 0);
@@ -93,6 +97,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        NotifB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTonot=new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(goTonot);
+            }
+        });
 
         navButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +112,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(goTonav);
             }
         });
+
+
+
 
     }
 
